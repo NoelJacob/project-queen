@@ -11,7 +11,6 @@
 
 <section>
   <h1>One giant leap for mankind</h1>
-  <img
 </section>
 
 <style>

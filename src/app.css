@@ -1,6 +1,6 @@
 /* Write your global styles here, in PostCSS syntax */
 
-@import "@fontsource/fira-mono";
+@import "@fontsource/quicksand/700";
 
 @tailwind base;
 

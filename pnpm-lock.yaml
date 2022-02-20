@@ -1,10 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@fontsource/fira-mono': ^4.5.2
+  '@fontsource/quicksand': ^4.5.4
   '@lukeed/uuid': ^2.0.0
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
+  '@tailwindcss/forms': ^0.4.0
   '@types/cookie': ^0.4.1
   autoprefixer: ^10.4.2
   cookie: ^0.4.2
@@ -18,8 +19,9 @@ specifiers:
   typescript: ~4.5.5
 
 dependencies:
-  '@fontsource/fira-mono': 4.5.2
+  '@fontsource/quicksand': 4.5.4
   '@lukeed/uuid': 2.0.0
+  '@tailwindcss/forms': 0.4.0_tailwindcss@3.0.23
   cookie: 0.4.2
 
 devDependencies:
@@ -59,8 +61,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@fontsource/fira-mono/4.5.2:
-    resolution: {integrity: sha512-0R6s18VVU07z883ecmsaGSpB81LVCorxuJzNNIjR+oLYfCs9d7AJ3+5Yfni39+OfIz0gqPRLWm+826jp7So1UA==}
+  /@fontsource/quicksand/4.5.4:
+    resolution: {integrity: sha512-BJEmlSF+HH0JJK3ug3jT/Ov6TrX8gEIyuAHkBUI/0KuW/iCbO2M+bu7RX3RstlcQPKzTkIqZQ0IOeLO5zP5oag==}
     dev: false
 
   /@iarna/toml/2.2.5:
@@ -176,6 +178,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@tailwindcss/forms/0.4.0_tailwindcss@3.0.23:
+    resolution: {integrity: sha512-DeaQBx6EgEeuZPQACvC+mKneJsD8am1uiJugjgQK1+/Vt+Ai0GpFBC2T2fqnUad71WgOxyrZPE6BG1VaI6YqfQ==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
+    dependencies:
+      mini-svg-data-uri: 1.4.3
+      tailwindcss: 3.0.23_autoprefixer@10.4.2
+    dev: false
 
   /@types/cookie/0.4.1:
     resolution: {integrity: sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==}
@@ -1013,6 +1024,11 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
     dev: true
+
+  /mini-svg-data-uri/1.4.3:
+    resolution: {integrity: sha512-gSfqpMRC8IxghvMcxzzmMnWpXAChSA+vy4cia33RgerMS8Fex95akUyQZPbxJJmeBGiGmK7n/1OpUX8ksRjIdA==}
+    hasBin: true
+    dev: false
 
   /minimatch/3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
